@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <script src="Java.js"></script>
+    <script>
+        function eraseText()
+        {
+            document.getElementById("output").value = "";
+        }
+
+    </script>
+</head>
+<header>
+    <h1 ID ="HEADER1"> JAVA
+    </h1><br><br><br><br><br>
+</header>
+<body ng-app="Java" ng-controller="java1">
+    <p1>Q1.Complete the code the print the text "Hello World"</p1><br>
+    <form>
+        <input type="text" id="answer1" value="">
+    </form>
+    <p style="float:right;margin-right: 1250px;margin-top: -20px">("Hello World")</p>
+    <button type="submit" style="margin-top: 20px;margin-left:10px;float: left" value="Clear" onclick="eraseText();">Reset</button><br>
+<p id="display1" style="margin-right:20px "></p><br>
+
+    <p2>Q2.Write the code to check if 5 is even or odd</p2><br>
+    <p2>
+        x = 5<br>
+        if(
+    </p2>
+<form style="float:right;margin-right: 1345px">
+    <input type="text" id="answer2" value="">
+</form>
+<p2 style="float: right;margin-right: 1335px;margin-top: -20px">)</p2><br>
+<p2>
+    {<br>
+    print("5 is odd")<br>
+    }<br>
+    else<br>
+    {<br>
+    print("5 is even")<br>
+    }
+
+</p2>
+    <button type="submit" style="margin-top: 20px;margin-left:10px;float: left" value="Clear" onclick="eraseText();">Reset</button><br><br><br>
+
+<p2>Q3.Display elements of list using for loop(use i as iterator)</p2>
+<p2>List = 1,2,3,4,5,6,7,8,9,10<br>
+    a = [1,2,3,4,5,6,7,8,9,10] <br>
+    for(
+</p2>
+    <form style="float:right;margin-right: 1345px">
+        <input type="text" id="answer3" value="">
+    </form>
+    <p2 style="float: right;margin-right: 1335px;margin-top: -20px">)</p2><br>
+<p2>
+    print(a[i])
+</p2>
+<button type="submit" style="margin-top: 20px;margin-left:10px;float: left" value="Clear" onclick="eraseText();">Reset</button>
+
+    <button type="submit" style="margin-top: 20px;float: left;margin-left: 10px;" ng-click="sub()">Submit</button>
+<p id="display4"></p>
+<style>
+    body {
+        background-color: ghostwhite;
+        font-family: "Lucida Grande";
+
+    }  
+    h1{
+        float: left;
+margin-left: 500px;
+margin-right: 500px ;
+align-content: center;
+    }
+  </style>
+</body>
+
+</html>

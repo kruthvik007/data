@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <script src="SQL.js"></script>
+    <script>
+        function eraseText()
+        {
+            document.getElementById("output").value = "";
+        }
+
+    </script>
+</head>
+<header>
+    <h1 ID ="HEADER1"> SQL
+    </h1><br><br><br><br><br>
+</header>
+<body ng-app="SQL" ng-controller="sql1">
+    <p1>Q1.Write the query to get all information from table Employees</p1><br>
+    <form>
+        <input type="text" id="answer1" value="">
+    </form>
+    <button type="submit" style="margin-top: 20px;margin-left:10px;float: left" value="Clear" onclick="eraseText();">Reset</button><br>
+<p id="display1" style="margin-right:20px "></p><br>
+
+    <p2>Q2.Change value of field country from Singapore to China for the id 10 from Employee table</p2><br>
+<form style="float:right;margin-right: 1345px">
+    <input type="text" id="answer2" value="">
+</form>
+<p2 style="float: right;margin-right: 1335px;margin-top: -20px">)</p2><br>
+    <button type="submit" style="margin-top: 20px;margin-left:10px;float: left" value="Clear" onclick="eraseText();">Reset</button><br><br><br>
+
+<p2>Q3.Add a column CustType of type varchar with size 10 to Employee table</p2>
+
+    <form style="float:right;margin-right: 1345px">
+        <input type="text" id="answer3" value="">
+    </form>
+    <p2 style="float: right;margin-right: 1335px;margin-top: -20px">)</p2><br>
+    <button type="submit" style="margin-top: 20px;margin-left:10px;float: left;margin-left: 10px;" value="Clear" onclick="eraseText();">Reset</button>
+
+    <button type="submit" style="margin-top: 20px;float: left" ng-click="sub()">Submit</button>
+<p id="display4"></p>
+<style>
+    body {
+        background-color: ghostwhite;
+        font-family: "Lucida Grande";
+
+    }  
+    h1{
+        float: left;
+margin-left: 500px;
+margin-right: 500px ;
+align-content: center;
+    }
+  </style>
+</body>
+</html>
